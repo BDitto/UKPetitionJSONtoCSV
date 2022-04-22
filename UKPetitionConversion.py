@@ -9,7 +9,7 @@ print("\n --------------------------------- \n "
       "\n Signatures by Region\n"
       "\n Signatures by Constituency\n"
       "\n Field titles shall be saved as presentend by the UK Parlimentary Petitions data source"
-      "\n \n No garuntees are expressed or implied by the author in making this script available. \n \n This script is made available under  \n Please remember to credit this script in your final outputs also\n --------------------------------- \n")
+      "\n \n No garuntees are expressed or implied by the author in making this script available. \n \n This script is made available under BSD 3-Clause License \n Please remember to credit this script in your final outputs also\n --------------------------------- \n")
 
 
 #retrieve petition
