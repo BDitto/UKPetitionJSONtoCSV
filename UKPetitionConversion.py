@@ -52,7 +52,7 @@ constituency =  pd.DataFrame(js["data"]["attributes"]["signatures_by_constituenc
 region =  pd.DataFrame(js["data"]["attributes"]["signatures_by_region"])
 
 
-#add UK apprend to consituency for google data studio
+#Optional choice to add UK apprend to consituency for google data studio inport
 #constituency['name'] = constituency['name'] + ", UK"
 
 #save country dataframes
@@ -60,13 +60,10 @@ countryDF.to_csv(PetitionID + "_By_Country.csv", index=False)
 constituency.to_csv(PetitionID + "_By_constituency.csv", index=False)
 region.to_csv(PetitionID + "_by_region.csv", index=False)
 
-print("")
-print("")
-print("")
-print("individuals from " + str(len(constituency)) + " constituencys signed this peition. For binning purposes, there are " + str(len(constituency["signature_count"].unique())) + " unique values")
-print("")
-print("individuals from " + str(len(region)) + " regions signed this peition. For binning purposes, there are " + str(len(region["signature_count"].unique())) + " unique values")
-print("")
-print("individuals from " + str(len(countryDF)) + " countries signed this peition. For binning purposes, there are " + str(len(countryDF["signature_count"].unique())) + " unique values")
+print("\n --------------------------------- \n"
+      "individuals from " + str(len(constituency)) + " constituencys signed this peition. For binning purposes, there are " + str(len(constituency["signature_count"].unique())) + " unique values \n\n "
+      "individuals from " + str(len(region)) + " regions signed this peition. For binning purposes, there are " + str(len(region["signature_count"].unique())) + " unique values \n\n"
+      "individuals from " + str(len(countryDF)) + " countries signed this peition. For binning purposes, there are " + str(len(countryDF["signature_count"].unique())) + " unique values \n"
+      "\n --------------------------------- \n")
 
-print("script complete")
+print(" \n\n --script complete--")
