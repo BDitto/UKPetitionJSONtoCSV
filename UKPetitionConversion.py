@@ -14,7 +14,7 @@ version = "v1.220427"
 # Field titles shall be saved as presentend by the UK Parlimentary Petitions data source
 #
 # No garuntees are expressed or implied by the author in making this script available.
-# This script is made available under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license
+# This script is made available under GNU General Public License v3.0 license
 #
 # Please remember to credit this script in your final outputs also
 #
