@@ -2,7 +2,7 @@ import pandas as pd, urllib.request as web, json
 
 # ---------------------------------
 #UK Parliment JSON to CSV converter
-version = "v1.220427"
+version = "v1.220427.1"
 #Last Updated: 27 April 2022
 #---------------------------------
 #This script is provided AS IS for the purposes of converting UK Parlimentary Petition data to a CSV format readable in most data packages (Excel, SAS, Tableu, Google Data Studio etc). This file will create 3 csv files in directory:
@@ -16,10 +16,13 @@ version = "v1.220427"
 # No garuntees are expressed or implied by the author in making this script available.
 # This script is made available under GNU General Public License v3.0 license
 #
+# This script utalises PANDAS which can be found at https://github.com/pandas-dev/pandas and is distributed under BSD 3-Clause License found here: https://github.com/pandas-dev/pandas/blob/main/LICENSE
+#
+# The author makes ABSOLUTELY NO claims of affilitation with or of rights to the PANDAS project(s) but thanks them for their continued work for the good of the data science community.
+#
 # Please remember to credit this script in your final outputs also
 #
 # Please see README at github.com/BDitto/UKPetitionJSONtoCSV
-# ---------------------------------
 
 def UKPetitionJSONtoCSV(automate = 0,pettitionID = 0, outputName = "", CountryOutput = 1, RegionOutput = 1, constituencyOutput = 1, verbose = 1):
 
