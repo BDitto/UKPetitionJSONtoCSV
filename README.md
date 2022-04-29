@@ -25,9 +25,10 @@ Acknowledgement in final outputs that have used this script are appreciated.
 # Usage Guide
 --
 
-NOTE:
+**Requirements**:
  - This module **Requires internet access** to function and availability of the UK Parlimentary Pettions Website
  - This module requires the ID of the Parlimentary Petition you wish to obtain CSV data from. This can usually be found as the last segment of the Pettition page URL
+ - This script requires Pandas to be installed within your python enviroment [ pip install pandas ]
 
 This function is designed to be very simple to use with both a "Manual" and "automated" option available. By default, outputs will be exported to the DIR from which code is being run. 
 
